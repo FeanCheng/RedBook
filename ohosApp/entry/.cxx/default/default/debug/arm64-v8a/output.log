@@ -1,0 +1,10 @@
+ninja: Entering directory `/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/.cxx/default/default/debug/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/kuikly_entry.dir/napi_init.cpp.o
+FAILED: CMakeFiles/kuikly_entry.dir/napi_init.cpp.o 
+/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm --sysroot=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/sysroot -Dkuikly_entry_EXPORTS -I/Applications/DevEco-Studio.app/Contents/sdk/default/hms/native/sysroot/usr/include -I/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/src/main/cpp/. -I/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/src/main/cpp/./include -I/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/src/main/cpp/../../../oh_modules/@kuikly-open/render/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O0 -g -fno-limit-debug-info  -std=gnu++17 -fPIC -MD -MT CMakeFiles/kuikly_entry.dir/napi_init.cpp.o -MF CMakeFiles/kuikly_entry.dir/napi_init.cpp.o.d -o CMakeFiles/kuikly_entry.dir/napi_init.cpp.o -c /Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/src/main/cpp/napi_init.cpp
+clang++: warning: argument unused during compilation: '--gcc-toolchain=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/src/main/cpp/napi_init.cpp:4:10: fatal error: 'thirdparty/biz_entry/libshared_api.h' file not found
+#include "thirdparty/biz_entry/libshared_api.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.

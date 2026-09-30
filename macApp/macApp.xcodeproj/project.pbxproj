@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B49EBE36B6D7FF8F4B30B715250D59E /* macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D232AC82CF86BCCCA91BE9701B387F /* macApp.swift */; };
+		0E8FFBF2E25EE230882848AC /* Pods_macApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3CF03C0BC963BF80957EC0 /* Pods_macApp.framework */; };
+		176010655E8C63809F9C4B48A9F88015 /* KRRouterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D41811D1B111054FC80995DD7DC4A1 /* KRRouterHandler.m */; };
+		1C084D164C3A53695A61882C93269486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE1C01047677A41F983AF4A83C59DE4 /* Foundation.framework */; };
+		2467B9FDB837A930C3B9694DEFA58159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D637BE7E7A4059A5A488CE87C3DD00A /* Assets.xcassets */; };
+		3485B57B0B05E78C4638379215E091BD /* KuiklyRenderComponentExpandHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FBEF0145154874563C6275205EA181 /* KuiklyRenderComponentExpandHandler.m */; };
+		35CEC555D172AFAC44D192AC4FF3864D /* macOSApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833D95EC73818D4A3F61FE9989CBE00E /* macOSApp-Info.plist */; };
+		39A14547E4C19F509587FDA81E26F9D6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC3E8180BA5732AE299223D010A1A8A /* AppKit.framework */; };
+		5256FF05D905B488F241846387212870 /* KRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B89F2BEF10B91BB64519E071650C25 /* KRNavigationController.m */; };
+		594CAF1A36AE2B50F5671187BF937D9C /* KuiklyRenderViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5F9CDDDDBCB02FCEB42BFD02336AE /* KuiklyRenderViewPage.swift */; };
+		681084769847BACD06BCB68E5D1D551F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D74C073F0BF243E68335E45F4CB38B /* ContentView.swift */; };
+		6FFD8025F90C7BE4E3C6944D4C40ADC3 /* KRAPNGViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9590B582779FFC9D424EFC037905EF66 /* KRAPNGViewHandler.m */; };
+		74C9DEFE92B281AB5070496FBB1C2745 /* KRVideoViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C5EA13F02DF8DA4A5E2C31027B76E /* KRVideoViewHandler.m */; };
+		76C84813383657CD06BB72C27909B4CF /* KuiklyRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E885B13131AED8304EF53C9CD769A9A6 /* KuiklyRenderViewController.m */; };
+		B22E78878D002DB51E2626E63B591FF4 /* KRBridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 363773C98FDB2695E475BC9A76EDEF38 /* KRBridgeModule.m */; };
+		F4C1F7700881A3F775D3086E11960806 /* KRFontHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E866FAC8DD301C803D1A32349575C /* KRFontHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09D41811D1B111054FC80995DD7DC4A1 /* KRRouterHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRRouterHandler.m; sourceTree = "<group>"; };
+		15D74C073F0BF243E68335E45F4CB38B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18E5F9CDDDDBCB02FCEB42BFD02336AE /* KuiklyRenderViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuiklyRenderViewPage.swift; sourceTree = "<group>"; };
+		1CCBA05E7884D3025F2706568B37FE07 /* KRRouterHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRRouterHandler.h; sourceTree = "<group>"; };
+		1FE061595295E8096BFF798FAE852CBB /* KRBridgeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRBridgeModule.h; sourceTree = "<group>"; };
+		33ACF08489648647550E11CD /* Pods-macApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macApp.debug.xcconfig"; path = "Target Support Files/Pods-macApp/Pods-macApp.debug.xcconfig"; sourceTree = "<group>"; };
+		363773C98FDB2695E475BC9A76EDEF38 /* KRBridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRBridgeModule.m; sourceTree = "<group>"; };
+		511E45AFCA4D89014DF68BE846B96165 /* KuiklyRenderComponentExpandHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KuiklyRenderComponentExpandHandler.h; sourceTree = "<group>"; };
+		5C0957BF5EE42E646E44889B7399D117 /* KRAPNGViewHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRAPNGViewHandler.h; sourceTree = "<group>"; };
+		5C4AB48B95D076F67928A83B /* Pods-macApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macApp.release.xcconfig"; path = "Target Support Files/Pods-macApp/Pods-macApp.release.xcconfig"; sourceTree = "<group>"; };
+		5C6A7960709337197F0E9CF3BA05B442 /* macApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7C5EA13F02DF8DA4A5E2C31027B76E /* KRVideoViewHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRVideoViewHandler.m; sourceTree = "<group>"; };
+		833D95EC73818D4A3F61FE9989CBE00E /* macOSApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOSApp-Info.plist"; sourceTree = "<group>"; };
+		8895216D971B5B32067DF869E25FD1A4 /* macApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macApp.entitlements; sourceTree = "<group>"; };
+		88B8385317FB9EC8ABB328157C2E1823 /* macApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8CBF0C7A1021298F1FE24815B0563797 /* KuiklyRenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KuiklyRenderViewController.h; sourceTree = "<group>"; };
+		8D637BE7E7A4059A5A488CE87C3DD00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9590B582779FFC9D424EFC037905EF66 /* KRAPNGViewHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAPNGViewHandler.m; sourceTree = "<group>"; };
+		96B89F2BEF10B91BB64519E071650C25 /* KRNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRNavigationController.m; sourceTree = "<group>"; };
+		A07E866FAC8DD301C803D1A32349575C /* KRFontHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRFontHandler.m; sourceTree = "<group>"; };
+		ABC3E8180BA5732AE299223D010A1A8A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C38B18E273EAECB13C5243E9D67780FF /* KRFontHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRFontHandler.h; sourceTree = "<group>"; };
+		D6FBEF0145154874563C6275205EA181 /* KuiklyRenderComponentExpandHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuiklyRenderComponentExpandHandler.m; sourceTree = "<group>"; };
+		D9441FBF028DD93E818F5568CA9A5C95 /* KRNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRNavigationController.h; sourceTree = "<group>"; };
+		E885B13131AED8304EF53C9CD769A9A6 /* KuiklyRenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuiklyRenderViewController.m; sourceTree = "<group>"; };
+		F2D232AC82CF86BCCCA91BE9701B387F /* macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macApp.swift; sourceTree = "<group>"; };
+		F8527CAF6FC0BBDA1F71815EDF640234 /* KRVideoViewHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRVideoViewHandler.h; sourceTree = "<group>"; };
+		FA3CF03C0BC963BF80957EC0 /* Pods_macApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE1C01047677A41F983AF4A83C59DE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3668C495DA87036E6EC3CE2FA4AF76E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A14547E4C19F509587FDA81E26F9D6 /* AppKit.framework in Frameworks */,
+				1C084D164C3A53695A61882C93269486 /* Foundation.framework in Frameworks */,
+				0E8FFBF2E25EE230882848AC /* Pods_macApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C93EDCFB665DFE4805A9036 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33ACF08489648647550E11CD /* Pods-macApp.debug.xcconfig */,
+				5C4AB48B95D076F67928A83B /* Pods-macApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C032534174DFB48517B4480E0036C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6A7960709337197F0E9CF3BA05B442 /* macApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587E74207A7EFE2F33C65E4D9F23F1AD /* macApp */ = {
+			isa = PBXGroup;
+			children = (
+				8D637BE7E7A4059A5A488CE87C3DD00A /* Assets.xcassets */,
+				15D74C073F0BF243E68335E45F4CB38B /* ContentView.swift */,
+				18E5F9CDDDDBCB02FCEB42BFD02336AE /* KuiklyRenderViewPage.swift */,
+				88B8385317FB9EC8ABB328157C2E1823 /* macApp-Bridging-Header.h */,
+				8895216D971B5B32067DF869E25FD1A4 /* macApp.entitlements */,
+				F2D232AC82CF86BCCCA91BE9701B387F /* macApp.swift */,
+				833D95EC73818D4A3F61FE9989CBE00E /* macOSApp-Info.plist */,
+				FBD43C216F85E4602777077106209739 /* KuiklyRenderAddons */,
+			);
+			path = macApp;
+			sourceTree = "<group>";
+		};
+		6DB5731F1E6A303DED85E340854C7F34 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D9441FBF028DD93E818F5568CA9A5C95 /* KRNavigationController.h */,
+				96B89F2BEF10B91BB64519E071650C25 /* KRNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		87104B2152CBC53F1E6C239E772013EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC3E8180BA5732AE299223D010A1A8A /* AppKit.framework */,
+				FDE1C01047677A41F983AF4A83C59DE4 /* Foundation.framework */,
+				FA3CF03C0BC963BF80957EC0 /* Pods_macApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D09252413596A8D2E98DAABAE24A3814 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				5C0957BF5EE42E646E44889B7399D117 /* KRAPNGViewHandler.h */,
+				9590B582779FFC9D424EFC037905EF66 /* KRAPNGViewHandler.m */,
+				C38B18E273EAECB13C5243E9D67780FF /* KRFontHandler.h */,
+				A07E866FAC8DD301C803D1A32349575C /* KRFontHandler.m */,
+				1CCBA05E7884D3025F2706568B37FE07 /* KRRouterHandler.h */,
+				09D41811D1B111054FC80995DD7DC4A1 /* KRRouterHandler.m */,
+				F8527CAF6FC0BBDA1F71815EDF640234 /* KRVideoViewHandler.h */,
+				5E7C5EA13F02DF8DA4A5E2C31027B76E /* KRVideoViewHandler.m */,
+				511E45AFCA4D89014DF68BE846B96165 /* KuiklyRenderComponentExpandHandler.h */,
+				D6FBEF0145154874563C6275205EA181 /* KuiklyRenderComponentExpandHandler.m */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		DB64C4911895BB98CDA12A8C5B3B0EEC = {
+			isa = PBXGroup;
+			children = (
+				587E74207A7EFE2F33C65E4D9F23F1AD /* macApp */,
+				87104B2152CBC53F1E6C239E772013EF /* Frameworks */,
+				3C032534174DFB48517B4480E0036C39 /* Products */,
+				2C93EDCFB665DFE4805A9036 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E82DE8DB47084F253825CB2766EA5B09 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1FE061595295E8096BFF798FAE852CBB /* KRBridgeModule.h */,
+				363773C98FDB2695E475BC9A76EDEF38 /* KRBridgeModule.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F345D901DBD04EA3043F2C36C38D1181 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CBF0C7A1021298F1FE24815B0563797 /* KuiklyRenderViewController.h */,
+				E885B13131AED8304EF53C9CD769A9A6 /* KuiklyRenderViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FBD43C216F85E4602777077106209739 /* KuiklyRenderAddons */ = {
+			isa = PBXGroup;
+			children = (
+				F345D901DBD04EA3043F2C36C38D1181 /* Controllers */,
+				D09252413596A8D2E98DAABAE24A3814 /* Handlers */,
+				E82DE8DB47084F253825CB2766EA5B09 /* Modules */,
+				6DB5731F1E6A303DED85E340854C7F34 /* Navigation */,
+			);
+			path = KuiklyRenderAddons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1691812D0C8249AFABBDD47866A1B28A /* macApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB681AC6E4B5C2011FB4B8863D814DF0 /* Build configuration list for PBXNativeTarget "macApp" */;
+			buildPhases = (
+				EC383D3D5EA4D7823673991F /* [CP] Check Pods Manifest.lock */,
+				E7D518C9ED1B350C560D92D5142243F5 /* Sources */,
+				CA13104F44917BD7BCC01459261E6E3B /* Resources */,
+				3668C495DA87036E6EC3CE2FA4AF76E6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macApp;
+			productName = macApp;
+			productReference = 5C6A7960709337197F0E9CF3BA05B442 /* macApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DEA2929940EC3B59DB6AADEF115B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 0BADD4AAF3A27BEE58B61E343FE5AEE3 /* Build configuration list for PBXProject "macApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB64C4911895BB98CDA12A8C5B3B0EEC;
+			productRefGroup = 3C032534174DFB48517B4480E0036C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1691812D0C8249AFABBDD47866A1B28A /* macApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA13104F44917BD7BCC01459261E6E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2467B9FDB837A930C3B9694DEFA58159 /* Assets.xcassets in Resources */,
+				35CEC555D172AFAC44D192AC4FF3864D /* macOSApp-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC383D3D5EA4D7823673991F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D518C9ED1B350C560D92D5142243F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681084769847BACD06BCB68E5D1D551F /* ContentView.swift in Sources */,
+				6FFD8025F90C7BE4E3C6944D4C40ADC3 /* KRAPNGViewHandler.m in Sources */,
+				B22E78878D002DB51E2626E63B591FF4 /* KRBridgeModule.m in Sources */,
+				F4C1F7700881A3F775D3086E11960806 /* KRFontHandler.m in Sources */,
+				5256FF05D905B488F241846387212870 /* KRNavigationController.m in Sources */,
+				176010655E8C63809F9C4B48A9F88015 /* KRRouterHandler.m in Sources */,
+				74C9DEFE92B281AB5070496FBB1C2745 /* KRVideoViewHandler.m in Sources */,
+				3485B57B0B05E78C4638379215E091BD /* KuiklyRenderComponentExpandHandler.m in Sources */,
+				76C84813383657CD06BB72C27909B4CF /* KuiklyRenderViewController.m in Sources */,
+				594CAF1A36AE2B50F5671187BF937D9C /* KuiklyRenderViewPage.swift in Sources */,
+				0B49EBE36B6D7FF8F4B30B715250D59E /* macApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		082AB935476AC01164120AA43775589F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67B2912B7D115047ADE104E4A512FED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA864425A7428D6A7043A58094863223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33ACF08489648647550E11CD /* Pods-macApp.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios/Handler",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios/Core",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core",
+				);
+				INFOPLIST_FILE = "macApp/macOSApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguo.redbook.macapp;
+				PRODUCT_NAME = RedBook;
+				SWIFT_OBJC_BRIDGING_HEADER = "macApp/macApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0859CA5B5A32C3B12D12723D82A7AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4AB48B95D076F67928A83B /* Pods-macApp.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios/Handler",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios/Core",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core-render-ios",
+					"$(PROJECT_DIR)/Pods/OpenKuiklyIOSRender/core",
+				);
+				INFOPLIST_FILE = "macApp/macOSApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguo.redbook.macapp;
+				PRODUCT_NAME = RedBook;
+				SWIFT_OBJC_BRIDGING_HEADER = "macApp/macApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BADD4AAF3A27BEE58B61E343FE5AEE3 /* Build configuration list for PBXProject "macApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AB935476AC01164120AA43775589F /* Debug */,
+				67B2912B7D115047ADE104E4A512FED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB681AC6E4B5C2011FB4B8863D814DF0 /* Build configuration list for PBXNativeTarget "macApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA864425A7428D6A7043A58094863223 /* Debug */,
+				F0859CA5B5A32C3B12D12723D82A7AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DEA2929940EC3B59DB6AADEF115B01 /* Project object */;
+}

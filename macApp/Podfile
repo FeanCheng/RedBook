@@ -1,0 +1,30 @@
+source 'https://cdn.cocoapods.org/'
+platform :osx, '10.13'
+use_frameworks! :linkage => :static
+
+KUIKLY_VERSION = '2.28.0'
+
+target 'macApp' do
+  pod 'OpenKuiklyIOSRender', :git => 'https://github.com/Tencent-TDS/KuiklyUI.git', :tag => KUIKLY_VERSION
+  pod 'shared', :path => '../shared'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '10.13'
+    end
+  end
+
+  # Fix header search paths for macApp target
+  macApp = installer.aggregate_targets.find { |t| t.name == 'Pods-macApp' }
+  if macApp
+    macApp.user_project.native_targets.each do |target|
+      if target.name == 'macApp'
+        target.build_configurations.each do |config|
+          config.build_settings['HEADER_SEARCH_PATHS'] ||= ['$(inherited)']
+        end
+      end
+    end
+  end
+end

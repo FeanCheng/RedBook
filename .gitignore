@@ -1,0 +1,34 @@
+# Gradle
+.gradle/
+build/
+*/build/
+local.properties
+*.iml
+
+# IDE
+.idea/
+.DS_Store
+
+# Kotlin
+.kotlin/
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+Pods/
+Podfile.lock
+macApp/build/
+iosApp/build/
+
+# Ohos / DevEco
+oh_modules/
+.hvigor/
+*.hap
+
+# Node / H5
+node_modules/
+h5App/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

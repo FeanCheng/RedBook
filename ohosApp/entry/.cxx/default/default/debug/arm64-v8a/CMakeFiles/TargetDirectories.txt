@@ -1,0 +1,3 @@
+/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/.cxx/default/default/debug/arm64-v8a/CMakeFiles/kuikly_entry.dir
+/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/.cxx/default/default/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/linfengcheng/Android_Project/RedBook/RedBook/ohosApp/entry/.cxx/default/default/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "kuiklyui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tencent-TDS/KuiklyUI.git",
+      "state" : {
+        "revision" : "c9c1c743c85734422a74b7c0be44d37402fe2d08",
+        "version" : "2.28.0"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "2de3a496eaf6df9a1312862adcfd54acd73c39c0",
+        "version" : "5.21.7"
+      }
+    }
+  ],
+  "version" : 2
+}
